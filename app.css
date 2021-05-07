@@ -1,0 +1,175 @@
+body {
+  background: url(images/bg-pattern-top-mobile.svg) left top no-repeat,
+    url(images/bg-pattern-bottom-mobile.svg) right bottom no-repeat;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  margin: 50px auto;
+  max-width: 375px;
+  text-align: center;
+  width: 90%;
+}
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+p:first-of-type {
+  color: hsl(303, 10%, 53%);
+}
+span {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+.attribution {
+  font-size: 11px;
+  margin-top: 30px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.besttech {
+  background-color: hsl(300, 24%, 96%);
+  border: 1px solid hsl(300, 24%, 96%);
+  border-radius: 9px;
+  margin-bottom: 40px;
+  padding-top: 12px;
+}
+.besttech p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+.comments {
+  align-items: flex-start;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 9px;
+  display: block;
+  margin-bottom: 15px;
+  padding: 38px 30px;
+  text-align: left;
+}
+.comments img {
+  border-radius: 50%;
+  height: 20%;
+  margin-right: 20px;
+  width: 20%;
+}
+.comments p {
+  color: hsl(0, 0%, 100%);
+  line-height: 1.5em;
+}
+.comments-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comments-data p {
+  font-weight: 500;
+}
+.comments-header {
+  display: flex;
+}
+.report-guru {
+  background-color: hsl(300, 24%, 96%);
+  border: 1px solid hsl(300, 24%, 96%);
+  border-radius: 9px;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+.report-guru p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+.reviews {
+  background-color: hsl(300, 24%, 96%);
+  border: 1px solid hsl(300, 24%, 96%);
+  border-radius: 9px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding-top: 12px;
+}
+.reviews p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+@media (min-width: 900px) {
+  body {
+    background: url(images/bg-pattern-top-desktop.svg) left top no-repeat,
+      url(images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 90%;
+  }
+  .besttech {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    justify-content: space-evenly;
+    margin-left: 160px;
+    padding: 10px 55px 10px 20px;
+    width: 80%;
+  }
+  .bottom-half {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px auto;
+    width: 100%;
+  }
+  .comments:first-of-type {
+    margin: 30px 30px 20px 0;
+  }
+  .comments:nth-of-type(2) {
+    margin: 50px 30px 0 0;
+  }
+  .comments:nth-of-type(3) {
+    margin: 70px 0 -20px 0;
+  }
+  .heading {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    text-align: left;
+    width: 42%;
+  }
+  .heading p {
+    font-weight: 500;
+    line-height: 1.7em;
+    margin-top: -12px;
+  }
+  .heading h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+  .report-guru {
+    align-items: center;
+    display: flex;
+    height: 35px;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    padding: 10px 55px 10px 20px;
+    width: 80%;
+  }
+  .reviews {
+    align-items: center;
+    display: flex;
+    height: 35px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    padding: 10px 55px 10px 20px;
+    width: 80%;
+  }
+  .top-half {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
